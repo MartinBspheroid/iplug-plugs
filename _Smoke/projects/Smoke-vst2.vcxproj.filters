@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Smoke.cpp" />
+    <ClCompile Include="..\..\..\IPlug\IPlugAPIBase.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\IPlugParameter.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\IPlugProcessor.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\VST2\IPlugVST2.cpp">
+      <Filter>IPlug\VST2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\IGraphics.cpp">
+      <Filter>IGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Platforms\IGraphicsWin.cpp">
+      <Filter>IGraphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\IPlugPluginBase.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\IPlugTimer.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Drawing\IGraphicsNanoVG.cpp">
+      <Filter>IGraphics\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\IControl.cpp">
+      <Filter>IGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\IGraphicsEditorDelegate.cpp">
+      <Filter>IGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Controls\IControls.cpp">
+      <Filter>IGraphics\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Controls\IPopupMenuControl.cpp">
+      <Filter>IGraphics\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Controls\ITextEntryControl.cpp">
+      <Filter>IGraphics\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IPlug\IPlugPaths.cpp">
+      <Filter>IPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\IGraphics\Drawing\IGraphicsSkia.cpp">
+      <Filter>IGraphics\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\correlator.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\granular_processor.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\mu_law.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\pvoc\frame_transformation.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\pvoc\phase_vocoder.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\dsp\pvoc\stft.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clouds\resources.cc">
+      <Filter>clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stmlib\dsp\atan.cc">
+      <Filter>stmlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stmlib\dsp\units.cc">
+      <Filter>stmlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stmlib\utils\random.cc">
+      <Filter>stmlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../config.h" />
+    <ClInclude Include="..\Smoke.h" />
+    <ClInclude Include="..\..\..\IPlug\IPlugAPIBase.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugConstants.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugLogger.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugMidi.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugPlatform.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugParameter.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugStructs.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugUtilities.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlug_include_in_plug_hdr.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlug_include_in_plug_src.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugProcessor.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugEditorDelegate.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\IPlug\VST2_SDK\aeffect.h">
+      <Filter>IPlug\VST2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\IPlug\VST2_SDK\aeffectx.h">
+      <Filter>IPlug\VST2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\VST2\IPlugVST2.h">
+      <Filter>IPlug\VST2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphics.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphics_include_in_plug_hdr.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphics_include_in_plug_src.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphics_select.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsConstants.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsLiveEdit.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsPopupMenu.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsStructs.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsPrivate.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsUtilities.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Drawing\IGraphicsNanoVG.h">
+      <Filter>IGraphics\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Platforms\IGraphicsWin.h">
+      <Filter>IGraphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Platforms\IGraphicsWeb.h">
+      <Filter>IGraphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Platforms\IGraphicsMac.h">
+      <Filter>IGraphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Platforms\IGraphicsMac_view.h">
+      <Filter>IGraphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Platforms\IGraphicsLinux.h">
+      <Filter>IGraphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugTimer.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IControl.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\IGraphicsEditorDelegate.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IControls.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IFPSDisplayControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IPopupMenuControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IVKeyboardControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IVMeterControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IVMultiSliderControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\IVScopeControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Controls\ITextEntryControl.h">
+      <Filter>IGraphics\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugPaths.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\Drawing\IGraphicsSkia.h">
+      <Filter>IGraphics\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IPlug\IPlugPluginBase.h">
+      <Filter>IPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\IGraphics\ISender.h">
+      <Filter>IGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SA_Smoke.h" />
+    <ClInclude Include="..\SA_Grid.h" />
+    <ClInclude Include="..\SA_Math.h" />
+    <ClInclude Include="..\clouds\dsp\audio_buffer.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\correlator.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\frame.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\fx\diffuser.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\fx\fx_engine.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\fx\pitch_shifter.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\fx\reverb.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\grain.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\granular_processor.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\granular_sample_player.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\looping_sample_player.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\mu_law.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\parameters.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\pvoc\frame_transformation.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\pvoc\phase_vocoder.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\pvoc\stft.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\sample_rate_converter.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\window.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\dsp\wsola_sample_player.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clouds\resources.h">
+      <Filter>clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\algorithms\note_stack.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\algorithms\pattern_predictor.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\algorithms\tiny_map.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\algorithms\voice_allocator.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\atan.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\cosine_oscillator.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\delay_line.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\dsp.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\filter.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\hysteresis_quantizer.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\limiter.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\parameter_interpolator.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\polyblep.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\rsqrt.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\sample_rate_converter.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\dsp\units.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\fft\shy_fft.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\midi\midi.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\stmlib.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\test\wav_writer.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\ui\event_queue.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\buffer_allocator.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\crc32.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\dsp.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\gate_flags.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\murmurhash3.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\random.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\ring_buffer.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stmlib\utils\stream_buffer.h">
+      <Filter>stmlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IPlug">
+      <UniqueIdentifier>{2425d7db-3821-4242-b5c9-db34bda176ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{340070a8-76f3-47eb-9d5f-c13785b65579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPlug\VST2">
+      <UniqueIdentifier>{35a9e026-dde0-499a-9432-4ee1754ffba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IGraphics">
+      <UniqueIdentifier>{4867b134-9c10-4435-b4ba-5b411e34340b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IGraphics\Drawing">
+      <UniqueIdentifier>{f77209f4-83aa-47eb-9a44-59880a83c238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IGraphics\Platform">
+      <UniqueIdentifier>{2731d3da-3446-4ccb-83ff-8ae3793611b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IGraphics\Controls">
+      <UniqueIdentifier>{fa39707d-4118-45f2-92fb-d407fa5d3288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{8c338368-7512-426b-af83-0f50719ca0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clouds">
+      <UniqueIdentifier>{a4254a60-7214-4ca7-86d9-13bf504661bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stmlib">
+      <UniqueIdentifier>{2a86d39a-4084-44af-96a6-e6d9e6a31717}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resources\main.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\config\Smoke-web.mk">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\config\Smoke-win.props">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\config\Smoke-mac.xcconfig">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\config\Smoke-ios.xcconfig">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
